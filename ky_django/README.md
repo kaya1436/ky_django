@@ -1,1 +1,0 @@
-# ky_django
