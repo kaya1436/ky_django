@@ -24,6 +24,9 @@ urlpatterns = [
     path('', views.index),
     path('index01', views.index01),
     path('index02', views.index02),
+
     path('maps/home', mapsviews.home),
-    path('board/list', boardviews.list)
+    path('maps/plotly', mapsviews.plotly),
+
+    path('board/list', boardviews.list),
 ]
